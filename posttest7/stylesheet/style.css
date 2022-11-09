@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+}
+
+.navbar {
+    background-color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar h1 {
+    font-size: 40px;
+}
+
+.navbar a {
+    color: pink;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.tagline {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.container ul {
+    list-style-type: square;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 20%;
+    padding-top: 10%;
+    gap: 30px;
+}
+
+.con-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.con-item p {
+    font-family: 'Oswald', sans-serif;
+    color: #f1799e;
+}
+
+.about h2 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+th,
+td {
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 50px;
+    text-align: left;
+    border-bottom: 1px solid pink;
+}
+
+.formulirku {
+    padding-top: 10qpx;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgb(230, 121, 139)
+}
+
+.footer {
+    background-color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+.dark-mode {
+    background-color: black;
+    color: pink;
+}
+
+.ul {
+    text-align: center;
+}
